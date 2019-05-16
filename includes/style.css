@@ -356,6 +356,35 @@ footer {
 
 }
 
+.gbox:hover {
+    background:#323232;
+}
+.gbox p {
+    display: none;
+}
+
+
+
+.show p {
+    display: block;
+    color:#ffffff;
+}
+
+
+.correct {
+    background-color: #BAFABC;
+}
+
+.correct:hover {
+    background: rgb(112, 206, 115);
+
+}
+
+.correct p {
+    display: block;
+    color: #000000;
+}
+
 @media only screen and (max-width:1200px){
     #sidebar{
         display:none;
